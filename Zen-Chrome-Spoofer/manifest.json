@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Zen Chrome Spoof",
+  "version": "1.0",
+  "description": "Makes specific sites think I am using Google Chrome.",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://citu.codechum.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://citu.codechum.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}
