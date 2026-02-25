@@ -1,0 +1,25 @@
+```json
+{
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "User-Agent",
+          "operation": "set",
+          "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+        },
+        {
+          "header": "sec-ch-ua",
+          "operation": "set",
+          "value": "\"Chromium\";v=\"122\", \"Not(A:Brand\";v=\"24\", \"Google Chrome\";v=\"122\""
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "||example.com", 
+      "resourceTypes": ["main_frame", "sub_frame", "xmlhttprequest", "script", "stylesheet", "image"]
+    }
+  }
+```
