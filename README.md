@@ -9,3 +9,19 @@
 5. Click on Load Temporary Add-on
 6. Navigate to the Zen-Chrome-Spoofer folder you downloaded
 7. Select the `manifest.json` file
+
+## How to add more URLS:
+*Extension pop-up is still **WIP** but you can do so manually via adding the url into the `"host_permissions"` and `"matches"` seciton inside `manifest.json` as well as creating another rule block inside `rules.json`*
+
+## How to add another rule block:
+1. Navigate to rules.json
+2. Copy and paste [this](RULEBLOCK.md) block onto a new section:
+4. Ensure that the `id` is unique
+5. Find the `urlFilter` and replace `||example.com` with your desired URL *(`||` used to enforce the rules to subdomains)* 
+
+
+
+
+
+
+
