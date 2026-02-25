@@ -16,7 +16,7 @@
 ## How to add another rule block:
 1. Navigate to rules.json
 2. Copy and paste [this](RULEBLOCK.md) block onto a new section:
-4. Ensure that the `id` is unique
+4. Ensure that the `id` is unique, and the previous closing bracket ends with a comma
 5. Find the `urlFilter` and replace `||example.com` with your desired URL *(`||` used to enforce the rules to subdomains)* 
 
 
