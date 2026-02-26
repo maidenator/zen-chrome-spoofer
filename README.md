@@ -1,11 +1,11 @@
 # Zen-Chrome-Spoofer
  A simple extension that spoofs your user agent to make websites think think that you are using chrome
-
+ This was made with zen in mind but is compatible with firefox
 ## How to install:
 1. Download/Clone this repository
-2. Open your Zen browser
+2. Open your Zen/Firefox browser
 3. Navigate to `about:debugging:` 
-4. Locate and click on `This Zen`
+4. Locate and click on `This Zen` (or `This Firefox`)
 5. Click on Load Temporary Add-on
 6. Navigate to the Zen-Chrome-Spoofer folder you downloaded
 7. Select the `manifest.json` file
