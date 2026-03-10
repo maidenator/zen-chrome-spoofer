@@ -20,9 +20,9 @@
 4. Ensure that the `id` is unique, and the previous closing bracket ends with a comma (`},`)
 5. Find the `urlFilter` and replace `||example.com` with your desired URL *(`||` used to enforce the rules to subdomains)*
 
+## Why was this made?
+This was made to bypass codechum's enforcement of using a chrome/edge browser which makes it a hassle to keep on switching between browsers since I mainly use Zen (a firefox fork).
 
 
-
-
-
-
+p.s
+*Will continue this project if I feel the need to, so dont expect anything*
