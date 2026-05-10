@@ -3,6 +3,13 @@
   "name": "Zen Chrome Spoof",
   "version": "1.0",
   "description": "Makes specific sites think I am using Google Chrome.",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "zen-chrome-spoof@maidenator.dev"
+    }
+  },
+
   "permissions": [
     "declarativeNetRequest"
   ],
